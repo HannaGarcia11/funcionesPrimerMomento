@@ -32,3 +32,16 @@ let calcularIva = () =>{
 let total = () =>{
     return calcularSubtotal() + calcularIva() + cargoFijoServicio();
 }
+
+// Función declarativa - mostrar factura
+function mostrarFactura(){
+    console.log("FACTURA MENSUAL DE ENERGÍA");
+    console.log("---------------------------");
+    console.log("Consumo mensual (kwh): ", consumoMensual(), "kwh");
+    console.log("Tarifa por kwh: ", tarifaBase(), "pesos");
+    console.log("Subtotal: ", calcularSubtotal(), "pesos");
+    console.log("IVA (" + porcentajeIva() + "%):", calcularIva(), "pesos");
+    console.log("Cargo fijo:", cargoFijo(), "pesos");
+    console.log("-------------------------------");
+    console.log("TOTAL A PAGAR:", calcularTotal(), "pesos");
+}
