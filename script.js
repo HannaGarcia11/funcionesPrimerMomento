@@ -45,3 +45,5 @@ function mostrarFactura(){
     console.log("-------------------------------");
     console.log("TOTAL A PAGAR:", calcularTotal(), "pesos");
 }
+
+mostrarFactura();
