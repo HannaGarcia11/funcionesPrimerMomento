@@ -7,3 +7,8 @@ function consumoMensual(){
 function tarifaBase(){
     return 620;
 }
+
+// Función expresión - cargo fijo por servicio
+let cargoFijoServicio = function(){
+    return 3500;
+}
