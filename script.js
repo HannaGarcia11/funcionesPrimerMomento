@@ -22,3 +22,8 @@ let valorIva = function(){
 let calcularSubtotal = () =>{
     return consumoMensual() * tarifaBase();
 }
+
+// Función flecha - calcularIva
+let calcularIva = () =>{
+    return calcularSubtotal() * (valorIva() / 100);
+}
