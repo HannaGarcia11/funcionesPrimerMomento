@@ -12,3 +12,8 @@ function tarifaBase(){
 let cargoFijoServicio = function(){
     return 3500;
 }
+
+// Función expresión - valor IVA (19%)
+let valorIva = function(){
+    return 19;
+}
