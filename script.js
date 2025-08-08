@@ -27,3 +27,8 @@ let calcularSubtotal = () =>{
 let calcularIva = () =>{
     return calcularSubtotal() * (valorIva() / 100);
 }
+
+// Función flecha - total
+let total = () =>{
+    return calcularSubtotal() + calcularIva() + cargoFijoServicio();
+}
