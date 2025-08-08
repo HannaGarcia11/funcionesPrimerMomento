@@ -1,4 +1,9 @@
 // Función declarativa - consumo mensual (rwh)
 function consumoMensual(){
-    return ;
+    return 410;
+}
+
+// Función declarativa - tarifa base (rwh)
+function tarifaBase(){
+    return 620;
 }
