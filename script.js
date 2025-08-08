@@ -17,3 +17,8 @@ let cargoFijoServicio = function(){
 let valorIva = function(){
     return 19;
 }
+
+// Función flecha - calcularSubtotal
+let calcularSubtotal = () =>{
+    return consumoMensual() * tarifaBase();
+}
