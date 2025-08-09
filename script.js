@@ -40,10 +40,10 @@ function mostrarFactura(){
     console.log("Consumo mensual (kwh): ", consumoMensual(), "kwh");
     console.log("Tarifa por kwh: ", tarifaBase(), "pesos");
     console.log("Subtotal: ", calcularSubtotal(), "pesos");
-    console.log("IVA (" + porcentajeIva() + "%):", calcularIva(), "pesos");
-    console.log("Cargo fijo:", cargoFijo(), "pesos");
+    console.log("IVA (" + valorIva() + "%):", calcularIva(), "pesos");
+    console.log("Cargo fijo:", cargoFijoServicio(), "pesos");
     console.log("-------------------------------");
-    console.log("TOTAL A PAGAR:", calcularTotal(), "pesos");
+    console.log("TOTAL A PAGAR:", total(), "pesos");
 }
 
 mostrarFactura();
